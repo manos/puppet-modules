@@ -6,3 +6,6 @@ compresses and uploads to s3. Does not do encryption, but will upload without pu
 read perms.
 
 Requires the root user (which the cron runs as) has s3/ec2 credentials, so it can upload.
+
+Update the s3 bucket ("foo-bar-baz-backups") with your actual bucket, and you're good to go.
+

@@ -1,0 +1,8 @@
+== name: duplicity
+== author: Charlie Schluting <charlie@schluting.com>
+
+Very basic duplicity module, called via duplicity::backup { "/path/": }, which
+compresses and uploads to s3. Does not do encryption, but will upload without public
+read perms.
+
+Requires the root user (which the cron runs as) has s3/ec2 credentials, so it can upload.

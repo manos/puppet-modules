@@ -29,5 +29,4 @@ init.pp docs:
 # Note: if you have two ruby_envs in scope on the same server, you'll get conflicts installing the same gem in each.
 # In this case, name the call something different, and explicitly pass gem => "name_of_gem" (i.e. the define uses $name by default).
 #
-#
-
+# Note: we distribute the rvm install script to eliminate the file download as an external dependency. It's probably outdated now.

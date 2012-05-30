@@ -3,8 +3,8 @@
 # == Overview
 # Manages ruby version and their gems, optionally installing gem programs as system binaries.
 # NOTE: this is causing a lot of confusion. This is NOT virtualenv. You can only install ONE
-# version of ruby at a time. If you really want to have multiple versions of runy 1.9.3, e.g.,
-# then specify the patch level. You shouldn't need to do this thought.
+# version of ruby at a time. If you really want to have multiple versions of ruby 1.9.3, e.g.,
+# then specify the patch level. You shouldn't need to do this though.
 #
 # Again, this is not for 'environment isolation' - stop thinking of it as virtualenv. This is
 # for managing multiple versions of ruby, i.e. rvm!

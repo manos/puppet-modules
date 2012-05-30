@@ -18,11 +18,11 @@
 # ruby::gem_install { "cloudkick": ruby_env => "cloudkick", install_bin => "cloudkick", force_bin_overwrite => true }
 #
 # Trivial example, which is done by default:
-# # install ruby 1.9.3 and call it "newhotness":
-# ruby::ruby_install { "1.9.3": ruby_version => '1.9.3', ruby_env => 'newhotness', }
+# # install ruby 1.9.3 and call it "ruby":
+# ruby::ruby_install { "1.9.3": ruby_version => '1.9.3', ruby_env => 'ruby', }
 #
 # And install a random gem in it:
-# ruby::gem_install { "zzzzzz": ruby_env => "newhotness" }
+# ruby::gem_install { "zzzzzz": ruby_env => "ruby" }
 #
 # Note: if you have two ruby_envs in scope on the same server, you'll get conflicts installing the same gem in each.
 # In this case, name the call something different, and explicitly pass gem => "name_of_gem" (i.e. the define uses $name by default).
